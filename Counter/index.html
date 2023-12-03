@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Counter</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(blue, rgb(34, 245, 122), white);
+        flex-direction: column;
+      }
+
+      #counter {
+        font-size: 2em;
+        margin: 0 10px;
+      }
+
+      button {
+        width: 100px;
+        height: 100px;
+        font-size: 1em;
+        padding: 10px;
+        cursor: pointer;
+        background-color: rgb(96, 104, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>COUNTER</h1>
+    <button onclick="decrement()">-</button>
+    <span id="counter">0</span>
+    <button onclick="increment()">+</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
