@@ -1,0 +1,48 @@
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.container {
+  background: linear-gradient(rgb(245, 143, 143), rgb(80, 80, 149), black);
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 25px;
+}
+.btn {
+  margin: 20px;
+  display: flex;
+  gap: 55px;
+}
+button {
+  padding: 20px;
+  border-radius: 10px;
+}
+.resume {
+  background-color: green;
+  font-weight: bold;
+  border-radius: 100%;
+  padding: 40px;
+}
+.contact {
+  background-color: red;
+  padding: 40px;
+  border-radius: 100%;
+    font-weight: bold;
+
+}
+.project {
+  background-color: yellow;
+  padding: 40px;
+  border-radius: 100%;
+    font-weight: bold;
+
+}
+p{
+    font-size: 20px;
+    width: 455px;
+    font-weight: bold;
+}
