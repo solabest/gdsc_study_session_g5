@@ -8,7 +8,7 @@ const Input = ({ handleChange, value, title, name, color }) => {
         name={name}
         style={{ backgroundColor: { color } }}
       />
-      <span className="checkmark" style={{ backgroundColor: { color } }}></span>
+      <span className="checkmark" style={{ backgroundColor: `${ color }` }}></span>
       {title}
     </label>
   );
