@@ -72,7 +72,7 @@ function App() {
 
   return (
     <>
-    <Slider/>
+      <Slider/>
       <Sidebar handleChange={handleChange} />
       <Navigation query={query} handleInputChange={handleInputChange} />
       <Recommended handleClick={handleClick} />
