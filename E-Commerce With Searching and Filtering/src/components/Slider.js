@@ -14,7 +14,9 @@ function Slider() {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Available Products</h1>
-      <div className="slider">
+      <div className="slider" style={{
+        margin:"0 0 5px 250px"
+      }}>
         <Carousel breakPoints={breakPoints}>
           {data.map(function (data) {
             return (

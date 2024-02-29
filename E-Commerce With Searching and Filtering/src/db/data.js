@@ -2,26 +2,24 @@ import { AiFillStar } from "react-icons/ai";
 
 const data = [
   {
-    img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
-    title: "Nike Air Monarch IV",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTEki0wh5B7ERAaRPKRZItHJCGATYamgZP4Q&usqp=CAU",
+    title: "Habesha kemis",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
-    prevPrice: "$140,00",
+    prevPrice: "$400",
     newPrice: "200",
-    company: "Nike",
     color: "white",
-    category: "sneakers",
+    category: "kemis",
   },
   {
-    img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-    title: "Nike Air Vapormax Plus",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA1r4xaLQq0azr09FcbON5s2MKMo1VkK9_Vg&usqp=CAU",
+    title: "T-shirt",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
-    prevPrice: "$140,00",
+    prevPrice: "$100",
     newPrice: "200",
-    company: "Nike",
     color: "red",
-    category: "sneakers",
+    category: "shirt",
   },
 
   {
@@ -36,15 +34,14 @@ const data = [
     category: "sneakers",
   },
   {
-    img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
-    title: "Nike Running Shoe",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQop9KfunN_QzxI9oq8P2M3M_fMwR2B0IPz9Q&usqp=CAU",
+    title: "T-shirt",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
-    prevPrice: "$140,00",
+    prevPrice: "$140",
     newPrice: "200",
-    company: "Adidas",
     color: "black",
-    category: "sneakers",
+    category: "shirt",
   },
   {
     img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
@@ -70,15 +67,15 @@ const data = [
   },
 
   {
-    img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
-    title: "Loafer Flats",
+    img: "https://ethiopianculturalshop.com/wp-content/uploads/2023/08/photo_2023-08-28_11-13-17-600x881.jpg",
+    title: "Habesh-kemis",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
-    prevPrice: "$140,00",
+    prevPrice: "$10",
     newPrice: "50",
-    company: "Vans",
+    company: "Ethiopia",
     color: "white",
-    category: "flats",
+    category: "kemis",
   },
 
   {
